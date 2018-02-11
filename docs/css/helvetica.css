@@ -1,0 +1,144 @@
+@import 'https://fonts.googleapis.com/css?family=EB+Garamond|Open+Sans:300';
+@font-face {
+  font-family: 'Rollerscript-Smooth';
+  src: url('/fonts/rollerscript/Rollerscript-Smooth.woff2') format('woff2'), url('/fonts/rollerscript/Rollerscript-Smooth.woff') format('woff'), url('/fonts/rollerscript/Rollerscript-Smooth.ttf') format('truetype');
+}
+/* just some defaults */
+body {
+  font-family: 'Open Sans', serif;
+  font-size: 14px;
+}
+.titleT1 {
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-variant: none;
+  -webkit-font-smoothing: antialiased;
+}
+.titleT2 {
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 34px;
+  line-height: 50px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-variant: none;
+  -webkit-font-smoothing: antialiased;
+}
+.titleT3 {
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 50px;
+  line-height: 45px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-variant: none;
+  -webkit-font-smoothing: antialiased;
+  font-weight: normal;
+}
+.titleT4 {
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 40px;
+  line-height: 45px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-variant: none;
+  -webkit-font-smoothing: initial;
+}
+.titleT5 {
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 40px;
+  line-height: 45px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-variant: none;
+  -webkit-font-smoothing: initial;
+}
+.coverDateT1 {
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+}
+.coverDateT2 {
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 22px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  -webkit-font-smoothing: initial;
+  font-weight: normal;
+}
+.coverDateT3 {
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: initial;
+  text-transform: none;
+  -webkit-font-smoothing: initial;
+}
+.coverDateT4 {
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: initial;
+  text-transform: none;
+  -webkit-font-smoothing: initial;
+}
+.coverDateT5 {
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: initial;
+  text-transform: none;
+  -webkit-font-smoothing: initial;
+}
+.subhead {
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+}
+.subheadSmall {
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.subheadSmallT2 {
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.subheadLarge {
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+}
+.navigation {
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.helvetica_nl {
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#app-title-preview.helvetica_nl {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.app-layout-1 #app-title-preview.helvetica_nl {
+  font-size: 22px;
+}
