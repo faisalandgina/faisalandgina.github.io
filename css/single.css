@@ -3984,12 +3984,6 @@ body #wrapper .wedsite-menubar.wedsite-menubar-template-1 nav.navigation .nav__d
 }
 body #wrapper .wedsite-menubar.wedsite-menubar-template-1 .auth {
   position: absolute;
-  top: 16px;
-  right: 0;
-  height: 20px;
-  width: 55px;
-  padding-left: 5px;
-  margin: 0;
   z-index: 1;
   -webkit-transition: background-color 0.3s linear 0s;
   -moz-transition: background-color 0.3s linear 0s;
@@ -3997,14 +3991,12 @@ body #wrapper .wedsite-menubar.wedsite-menubar-template-1 .auth {
   -ms-transition: background-color 0.3s linear 0s;
   transition: background-color 0.3s linear 0s;
 }
-body #wrapper .wedsite-menubar.wedsite-menubar-template-1 .auth a {
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
+body #wrapper .wedsite-menubar.wedsite-menubar-template-1 .auth img {
+  position: fixed;
+  top: 3px;
+  left: 48.5%;
   bottom: 0;
   right: 0;
-  text-align: center;
 }
 body #wrapper .wedsite-menubar.wedsite-menubar-template-1 .auth a:hover {
   text-decoration: none;
