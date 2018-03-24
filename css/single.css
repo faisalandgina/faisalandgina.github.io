@@ -4688,7 +4688,7 @@ body.page-template-multiple .wedsite-page-wrapper {
   height: 30px;
   float: right;
   border-radius: 30px;
-  background: url("img/arrow_down_white.png") no-repeat 50% 50% #999999;
+  background: url("../img/arrow_down_white.png") no-repeat 50% 50% #999999;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
