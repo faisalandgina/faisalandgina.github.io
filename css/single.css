@@ -287,12 +287,7 @@ https://github.com/bfred-it/object-fit-images/blob/master/preprocessors/mixin.le
   -ms-user-select: none;
   user-select: none;
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  .content[contenttype=welcome][contenttemplate="round"] {
-    width: 75%;
-    margin: auto;
-  }
-}
+
 .content[contenttype=welcome][contenttemplate="round"] .weddingapp-content-welcome-message-container-overlay {
   background-color: white;
 }
@@ -3316,21 +3311,7 @@ body.mobile .content[contenttype=registry][contenttemplate="page"] .weddingapp-c
   bottom: 0;
   width: auto;
 }
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
-  .content[contenttype=registry][contenttemplate="page"] .weddingapp-content-registry-page-wrapper .weddingapp-content-registry-widget-container {
-    position: absolute;
-    top: 0%;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: auto;
-  }
-}
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  .content[contenttype=registry][contenttemplate="page"] .weddingapp-content-registry-page-wrapper .weddingapp-content-registry-widget-container {
-    padding: 0 10%;
-  }
-}
+
 .content[contenttype=registry][contenttemplate="page"] .weddingapp-content-registry-page-wrapper .weddingapp-content-registry-widget-container .weddingapp-content-registry-widget-scrollwrapper {
   padding: 20px;
   box-sizing: border-box;
