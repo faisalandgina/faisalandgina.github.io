@@ -3826,6 +3826,7 @@ body .wedsite-page-wrapper a:visited {
   color: #222222;
 }
 body #wrapper .wedsite-menubar.is-preview {
+  padding-top:0;
 }
 body #wrapper .wedsite-menubar.is-preview.wedsite-menubar-template-1 .auth {
   top: 20px;
@@ -3915,6 +3916,7 @@ body #wrapper .wedsite-menubar.wedsite-menubar-template-1 nav.navigation .nav__d
   body #wrapper .wedsite-menubar.wedsite-menubar-template-1 nav.navigation .nav__dropdown {
     right: auto;
     left: 0;
+    z-index: 4
   }
   body #wrapper .wedsite-menubar.wedsite-menubar-template-1 nav.navigation .nav__dropdown:after {
     right: auto;
@@ -4264,7 +4266,7 @@ body .wedding_page_header_background_color {
   background: transparent!important;
 }
 .block-wedsite-content-menubar-spacer-template-1 {
-  height: 42px;
+  height: 0px;
 }
 /*
 .block-wedsite.block-wedsite-menubar-template-toggle {
@@ -4681,7 +4683,7 @@ body.page-template-multiple .wedsite-page-wrapper {
 }
 .content-template-1[contenttype=events][contenttemplate="list"] .weddingapp-content-events-event-details-icon {
   position: absolute;
-  right: -15px;
+  right: 25px;
   top: 55px;
   display: inline-block;
   width: 30px;
@@ -4958,7 +4960,7 @@ body.page-template-multiple .wedsite-page-wrapper {
 }
 .content-template-1[contenttype=gallery][contenttemplate="preview"] #gallerylink {
   width: 795px;
-  height: 539px;
+  height: 300px;
   background: url('//d2df10ykdp3wy3.cloudfront.net/system_images/polaroid-stack_1376903537.png') no-repeat;
   margin: 0 auto 50px auto;
 }
@@ -4979,12 +4981,6 @@ body.page-template-multiple .wedsite-page-wrapper {
   text-overflow: ellipsis;
 }
 .content-template-1[contenttype=gallery][contenttemplate="preview"] #gallerylink .circle-button {
-  width: 250px;
-  height: 250px;
-  background-color: rgba(255, 255, 255, 0.5);
-  -webkit-box-shadow: inset 0 0 6px white;
-  -moz-box-shadow: inset 0 0 6px white;
-  box-shadow: inset 0 0 6px white;
   cursor: pointer;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -4996,10 +4992,10 @@ body.page-template-multiple .wedsite-page-wrapper {
   -webkit-border-radius: 150px;
   -moz-border-radius: 150px;
   border-radius: 150px;
-  position: relative;
-  left: 572px;
-  margin: 0;
-  top: -80px;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 30px 0 0;
+
 }
 .content-template-1[contenttype=gallery][contenttemplate="preview"] #gallerylink .circle-button > div {
   position: absolute;
